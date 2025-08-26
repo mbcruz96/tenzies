@@ -1,12 +1,7 @@
-# React + Vite
+### Tenzies Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a dynamic and engaging web version of the classic dice game, **Tenzies**. Built with **React** and **Vite**, the application challenges players to roll dice until all ten display the same value. The core gameplay loop involves rolling a set of dice and selectively "holding" the ones they want to keep, a mechanic that highlights the game's interactive nature. The design prioritizes a clean, user-friendly interface that lets the game's core loop—rolling, holding, and winning—shine.
 
-Currently, two official plugins are available:
+This project was a great opportunity to explore several key front-end development concepts. The use of **React's** state management was central to the application, as each die's individual state—whether it's held, its value, and its visual appearance—had to be managed and updated in real time. The game's logic, including checking for a win and implementing a timer to challenge players, showcases an ability to build functional and complex application logic. By using **Vite**, the project also benefits from a modern, performant build process, ensuring the final application is fast and responsive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This Tenzies game isn't just a simple game; it's a demonstration of my ability to build polished, interactive applications from the ground up, with a strong focus on component-based architecture and efficient state management.
